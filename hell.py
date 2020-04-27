@@ -21,7 +21,7 @@ printMessage = message["text1"]
 task1 = KubernetesPodOperator(namespace='default',
                           image="python:3.6",
                           cmds=["python","-c"],
-                          arguments=["print('Hello Hell')"],
+                          arguments=["print('Hello Helloween')"],
                           labels={"foo": "bar"},
                           name="failing-test",
                           task_id="failing-task",
