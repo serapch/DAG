@@ -10,7 +10,7 @@ default_args = {
 }
 
 dag = DAG(
-   dag_id='kubernetes-operator-failing',
+   dag_id='kubernetes-operator-never-failing',
    default_args=default_args,
    schedule_interval=None
 )
